@@ -23,9 +23,15 @@ namespace DeveloperProfile.Controllers
         }
         public IActionResult Portfolio()
         {
+            return View();
+        }
+
+        [HttpGet]
+        public IActionResult GitHubGetHub()
+        { 
             GitReuslt GitApi = new Models.GitReuslt();
-            RootObject[] newcall = GitApi.GitSumm();    
-            return View(newcall);
+            RootObject[] newcall = GitApi.GitCall();    
+            return Json(newcall);
         }
         
     }

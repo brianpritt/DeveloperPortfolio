@@ -20,7 +20,7 @@ namespace DeveloperProfile.Models
 
         }
             
-        public RootObject[] GitSumm()
+        public RootObject[] GitCall()
         {
             var client = new RestClient("http://api.github.com/");
           
