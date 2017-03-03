@@ -4,17 +4,21 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
-    <!-- Compiled and minified CSS -->
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+    <link rel="stylesheet" href="~/css/styles.css" />
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
-    <!-- Compiled and minified JavaScript -->
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
     <script src="~/js/jquery-3.1.1.min.js"></script>
+    
 </head>
 <body>
     <nav>
-        <div class="nav-wrapper">
-            <a href="#" class="brand-logo">Logo</a>
+        <div class="nav-wrapper grey">
+            <a href="/Home/" class="brand-logo"><img src="~/img/microsoftdotnet.png" class="logo" alt="dot net logo"/></a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li><a href="/Home/">Home</a></li>
                 <li><a href="/Home/Portfolio">Portfolio</a></li>
@@ -22,7 +26,7 @@
             </ul>
         </div>
     </nav>
-    <div>
+    <div class="thepage">
         @RenderBody()
     </div>
 </body>

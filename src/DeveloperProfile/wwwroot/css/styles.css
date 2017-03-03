@@ -1,0 +1,30 @@
+﻿body {
+    background-image: url("/img/coast.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;   
+    font-family: 'Roboto', sans-serif;
+}
+    
+.centering{
+    text-align:center;
+}
+.nav-wrapper{
+    background-color: rgba(0,0,0,.4);
+}
+.logo{
+    margin-top: -35px;
+    height:100px;
+}
+.colors{
+    background-color: rgba(0,0,0,.8);
+    width: 90%;
+    margin: 20px;
+    border-radius:8px;
+    height:200px;
+
+}
+.portfolio{
+    margin: 0 10%;
+    
+}
