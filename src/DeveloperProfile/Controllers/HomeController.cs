@@ -24,7 +24,7 @@ namespace DeveloperProfile.Controllers
         public IActionResult Portfolio()
         {
             GitReuslt GitApi = new Models.GitReuslt();
-            RootObject[] newcall = GitApi.GitSumm();
+            RootObject[] newcall = GitApi.GitSumm();    
             return View(newcall);
         }
         
