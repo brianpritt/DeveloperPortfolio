@@ -21,10 +21,17 @@
     width: 90%;
     margin: 20px;
     border-radius:8px;
-    height:200px;
+    height:300px;
 
 }
 .portfolio{
     margin: 0 10%;
     
+}
+.colors-2{
+    background-color: rgba(0,0,0,.8);
+    width: 90%;
+    margin: 20px;
+    border-radius:8px;
+    height:100%;
 }
