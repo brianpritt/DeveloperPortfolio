@@ -25,9 +25,8 @@ namespace DeveloperProfile.Models
             var client = new RestClient("http://api.github.com/");
           
              
-            var request = new RestRequest("users/brianpritt/starred?client_id=3e2eb44c3c59aeb6d168&client_secret=5b550b47780f00603d1d8b3393062ae636311693");
+            var request = new RestRequest("users/brianpritt/starred?sort=desc&client_id=3e2eb44c3c59aeb6d168&client_secret=5b550b47780f00603d1d8b3393062ae636311693");
             request.AddHeader("User-Agent", "BrianPritt");
-            request.AddHeader("order", "asc");
             var response = new RestResponse();
 
             Task.Run(async () =>
